@@ -1,0 +1,28 @@
+
+/* Scaling font size */
+html {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 3vw;
+  }
+  h3 {
+    font-size: 2vw;
+  }
+  h4 {
+    font-size:1.5vw;
+  }
+
+  .room {
+    width: 100%;
+    height: auto;
+  }
+
+
+  @media only screen and (min-width: 500px) { 
+
+  }
