@@ -19,6 +19,7 @@ h1 {
 
   .margins {
       display:grid;
+      width:100%;
       grid-template-columns: 10% 80% 10%
   }
 
@@ -35,13 +36,40 @@ h1 {
     margin: 2% 0 0 0;
   }
 
-  .room {
-    width: 80%;
-    height: auto;
+  .roomTower {
     margin-top: 2%;
+    width: 100%;
+    height: auto;
+  }
+
+  .roomHouse {
+      display:none;
+  }
+
+  .roomText {
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+  }
+
+  .roomContainer {
+    position: relative;
+    text-align: center;
   }
 
 
   @media only screen and (min-width: 500px) { 
-
+    .roomTower {
+        display: none;
+    }
+    .roomHouse {
+        display: inline;
+        margin-top: 2%;
+        width: 100%;
+    }
+    .house {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:2%;
+    }
   }
