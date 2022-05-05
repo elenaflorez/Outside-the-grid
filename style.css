@@ -55,6 +55,7 @@ h1 {
   .roomContainer {
     position: relative;
     text-align: center;
+    width:100%;
   }
 
 
